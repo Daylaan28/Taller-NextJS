@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anaheim:wght@400..800&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Usar las fuentes personalizadas */
+body {
+  font-family: 'Anaheim', sans-serif;
+  background-color: #f4f4f4; /* Estilo global de fondo */
+}
+
+/* Usar los colores nuevos */
+.text-primary {
+  color: #F29DC1; /* Rosa pastel */
+}
+
+.bg-primary {
+  background-color: #D1A6F0; /* Morado pastel */
+}
+
+/* Ejemplo de color para un botón */
+.btn-pink {
+  background-color: #F8C8D8; /* Rosa claro */
+  color: white;
+}
+
+.btn-purple {
+  background-color: #9C7BD5; /* Morado suave */
+  color: white;
+}
+
+
